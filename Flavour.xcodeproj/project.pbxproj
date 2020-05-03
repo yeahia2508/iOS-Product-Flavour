@@ -375,8 +375,6 @@
 				EXCLUDED_SOURCE_FILE_NAMES = (
 					beta.xcassets,
 					debug.xcassets,
-					CONSTANT_FILE_DEMO,
-					CONSTANT_FILE_DEBUG,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -404,9 +402,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .release;
 				CODE_SIGN_STYLE = Automatic;
-				CONSTANT_FILE_DEBUG = "/Constants/Debug/*";
-				CONSTANT_FILE_DEMO = "/Constants/Demo/*";
-				CONSTANT_FILE_RELEASE = "/Constants/Release/*";
 				DISPLAY_NAME = "Release App";
 				INFOPLIST_FILE = Flavour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,8 +494,6 @@
 				EXCLUDED_SOURCE_FILE_NAMES = (
 					debug.xcassets,
 					Assets.xcassets,
-					CONSTANT_FILE_DEBUG,
-					CONSTANT_FILE_RELEASE,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -528,9 +521,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .demo;
 				CODE_SIGN_STYLE = Automatic;
-				CONSTANT_FILE_DEBUG = "/Constants/Debug/*";
-				CONSTANT_FILE_DEMO = "/Constants/Demo/*";
-				CONSTANT_FILE_RELEASE = "/Constants/Release/*";
 				DISPLAY_NAME = "Demo App";
 				INFOPLIST_FILE = Flavour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,8 +613,6 @@
 				EXCLUDED_SOURCE_FILE_NAMES = (
 					Assets.xcassets,
 					beta.xcassets,
-					CONSTANT_FILE_DEMO,
-					CONSTANT_FILE_RELEASE,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -652,9 +640,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .debug;
 				CODE_SIGN_STYLE = Automatic;
-				CONSTANT_FILE_DEBUG = "/Constants/Debug/*";
-				CONSTANT_FILE_DEMO = "/Constants/Demo/*";
-				CONSTANT_FILE_RELEASE = "/Constants/Release/*";
 				DISPLAY_NAME = "Debug App";
 				INFOPLIST_FILE = Flavour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
